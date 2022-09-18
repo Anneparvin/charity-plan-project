@@ -1,0 +1,213 @@
+body{
+    font-family: 'Gulzar', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+/* main image container */
+.img-container{
+    background-image: url(./images/donation13.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+.img-text{
+    width: 100%;
+     height: 100%;
+     position: absolute;
+     color: white;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-top: 50px;
+}
+.text{
+    font-size:60px;
+    align-items: center;
+    justify-content: center;
+}
+.text1{
+    font-size: 20px;
+}
+.btn{
+    padding: 18px 38px;
+    background-color:red;
+    margin: 10px;
+    font-size: 25px;
+    color: white;
+    font-weight:bolder;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 1px solid red;
+    box-shadow: 2px 2px 16px white;
+}
+/* donate plan */
+
+.donate-text{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+.donate-par{
+    font-size: 20px;
+    text-align: center;
+}
+.box-model{
+    display: flex;
+    margin-left: 200px;
+}
+.box1{
+    width: 80px;
+    height: 30px;
+    background-color:aliceblue;
+    margin: 20px;
+    padding:50px;
+    border-radius:10px;
+    font-size: 30px;
+}
+.box2{
+    width: 80px;
+    height: 30px;
+    border: 1px solid grey;
+    margin: 20px;
+    padding:50px;
+    border-radius:10px;
+    background-color:burlywood;
+    font-size: 30px;
+    font-weight: bold;
+}
+.hr-tag{
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 300px;
+}
+.hr{
+    width: 90%;
+    margin-bottom: 20px;
+    margin-right: 250px;
+
+}
+.hr-text{
+    font-size: 25px;
+    color: gray;
+}
+
+/* donate plan today */
+.title2{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+.plan2{
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+}
+.package-description{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.card1{
+    width: 270px;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid gray;
+    padding: 25px;
+    box-shadow: 2px 2px 4px gray;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: .8ms;
+}
+
+
+.icon img{
+    width: 70px;
+}
+.package-description-text{
+    text-decoration: justify;
+}
+/* help people/2 also */
+
+.container{
+    display: flex;
+    margin-top: 150px;
+}
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+}
+.half-width img {
+    width: 80%;
+    padding: 10px;
+}
+.half-tag{
+    font-size: 40px;
+}
+.link-button {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 5px;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+/* color container */
+.color-container {
+    width: 500px;
+    padding: 100px;
+    border: 1px solid gray;
+    margin: 0;
+    background-color: antiquewhite;
+    border-radius:10px;
+    margin-left:400px;
+    text-align: center;
+    
+  }
+    .title2{
+    text-align:center;
+    margin-top: 150px;
+    }
+    .input-field{
+    boder-radius:10px;
+    border: 0px;
+    }
+    .input{
+    width:350px;
+    font-size:20px;
+    background-color:gainsboro;
+    }
+    .submit{
+    width:120px;
+    color:white;
+    background-color: orangered;
+    text-align:center;
+    font-size:20px;
+    }
+    /* footer */
+    .footer{
+        height:100px;
+        background-color:black;
+        color:white;
+        text-align:center;
+        margin-top:50px;
+        padding:10px;
+        }
+.foo{
+    font-size: 20px;
+}
+
+
+

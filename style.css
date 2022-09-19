@@ -95,6 +95,7 @@ body{
 .hr-text{
     font-size: 25px;
     color: gray;
+    font-weight: normal;
 }
 
 /* donate plan today */
@@ -205,9 +206,9 @@ body{
         margin-top:50px;
         padding:10px;
         }
-.foo{
-    font-size: 20px;
-}
+        .foo{
+            font-size: 20px;
+        }
 
 
 
